@@ -1,0 +1,45 @@
+Parkhaussimulator:
+Funktionale:
+1. Wenn es noch freie Parkplätze gibt muss der Parkhaussimulator den Kunden die Möglichkeit bieten einen Parkplatz zu mieten
+2. Der Parkhaussimulator muss Kunden die Möglichkeit bieten den Preis für den gemieteten Parkplatz zu bezahlen
+3. Der Parkhaussimulator muss den Kunden den Weg zu einem freien Parkplatz anzeigen können
+4. Der Parkhaussimulator muss dem Manager ermöglichen einzusehen wie viel das Parkhaus eingenommen hat
+5. Der Parkhaussimulator sollte dem Manager ermöglichen zu sehen, zu welchen Zeiten das Parkhaus wie viel Geld eingenommen hat
+6. Der Parkhaussimulator sollte dem Manager ermöglichen zu sehen, zu welchen Zeiten wie viel Betrieb im Parkhaus herrschte
+
+nicht Funktional:
+1. Wenn der Kunde bezahlt hat muss der Parkhaussimulator den Kunden die Möglichkeit bieten das Parkhaus zu verlassen
+2. Der Parkhaussimulator muss den Kunden den Austritt aus dem Parkhaus vor der Zahlung der Gebühr verwehren
+3. Der Parkhaussimulator sollte dem Manager ermöglichen einzusehen wie viele Plätze im Parkhaus noch frei sind
+4. Der Parkhaussimulator sollte den Kunden ermöglichen einzusehen wie viele Plätze im Parkhaus noch frei sind
+5. Der Parkhaussimulator muss dem Manager ermöglichen das Parkhaus zu schließen/öffnen
+6. Der Parkhaussimulator muss dem Manager ermöglichen die Öffnungszeiten des Parkhauses zu bestimmen
+7. Der Parkhaussimulator muss dem Manager ermöglichen die preise des Parkhauses zu bestimmen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
