@@ -1,0 +1,51 @@
+Stakeholder-Analyse:
+Intern:
+	Entwickler (Aktiv): 
+	- Durch Bearbeitung des Projektes erhält das Unternehmen Geld
+
+Extern:
+	Parkhausmanager/Kunde (Passiv):
+	- Durch Automatisierung werden weniger Mitarbeiter benötigt, somit entstehen
+ 	Geringere Kosten für Personalressourcen 
+	- Da es weniger Mitarbeiter gibt sinken auch die Wahrscheinlichkeiten für Fehler 
+	durch menschliches Versagen, somit entstehen weniger Verluste
+	
+	Kunden des Parkhauses (Passiv): 
+ 	- Das automatisierte System kann schneller auf Anfragen seitens der Kunden des
+ 	Parkhauses reagieren (Beispiel: Parkschein ziehen) 
+	- Es kommt seltener zu Problemen durch menschliches Versagen wodurch den 
+	Kunden ein zuverlässigerer Service zur Verfügung gestellt und weniger Stress 
+	verursacht wird
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
