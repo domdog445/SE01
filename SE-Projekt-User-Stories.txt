@@ -1,0 +1,10 @@
+1. Als Kunde möchte ich einen freien Parkplatz zugewiesen bekommen, um zu wissen wo ich parken kann
+2. Als Manager möchte ich die Preise ändern, um das Angebot für Kunden ansprechender machen zu können
+3. Als Kunde muss ich die Parkgebühren bezahlen, um das Parkhaus verlassen zu können
+4. Als Manager möchte ich die Öffnungszeiten des Parkhauses anpassen können, um sie besser nach dem Betrieb richten zu können
+5. Als Manager möchte ich das Parkhaus manuell schließen können, um in Notfällen passend reagieren zu können
+6. Als Kunde möchte ich frühzeitig sehen können ob noch Parkplätze frei sind, um zu wissen ob es sich lohnt zum Parkhaus zu fahren
+7. Als Manager möchte ich einsehen wie viele Parkplätze zu Höchstzeiten belegt sind, um entscheiden zu können ob ein Anbau ans Parkhaus sinnvoll ist
+8. Als Manager möchte ich die Einnahmen des Parkhauses einsehen, um meine Finanzen besser einschätzen zu können
+9. Als Kunde möchte ich die Preise des Parkhauses einsehen, um das Preis-Leistungs-Verhältnis einschätzen zu können
+10. Als Kunde möchte ich die Öffnungszeiten des Parkhauses einsehen können, um zu sehen wann und wie lange ich dort parken kann
