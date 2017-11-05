@@ -1,0 +1,27 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor Kunde
+actor Manager
+rectangle Parkhaus {
+  Kunde -- (Ticket ziehen)
+  (Ticket ziehen) .> (Parkplatz zugewiesen bekommen) : <<include>>
+  Kunde -- (Parkhaus verlassen)
+  (Parkhaus verlassen) .> (Ticket bezahlen) : <<include>>
+  (Ticket bezahlen) <|-- (mit Bargeld bezahlen)
+  (Ticket bezahlen) <|-- (mit Kreditkarte bezahlen)
+  (mit Kreditkarte bezahlen) -- Bank
+  Kunde -- (Öffnungszeiten einsehen)
+  Kunde -- (Preise einsehen)
+  Kunde -- (Anzahl freier Parkplätze einsehen)
+  Manager -- (als Manager einloggen)
+  Manager -- (Preise ändern)
+  Manager -- (Öffnungszeiten ändern)
+  Manager -- (Parkhaus schließen)
+  Manager -- (Statistiken zum Parkhaus einsehen)
+  (Statistiken zum Parkhaus einsehen) .> (Einnahmen anzeigen) : <<include>>
+  (Statistiken zum Parkhaus einsehen) .> (Die Zeiten des meisten Betriebs anzeigen) : <<include>>
+}
+rectangle Bank{
+}
+@enduml
