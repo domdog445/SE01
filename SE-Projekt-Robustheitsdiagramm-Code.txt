@@ -1,0 +1,28 @@
+@startuml
+actor Kunde
+actor Manager
+control TicketController
+control BezahlungsController
+control ParkhausController
+control ParkplatzController
+boundary ParkautomatEingabe
+boundary Bank
+boundary ManagerZugang
+entity Parkplatz
+entity Oeffnungszeiten
+entity Statistiken
+entity Preis
+entity Bezahlung
+ParkplatzController -right- Parkplatz
+TicketController -right- ParkplatzController
+Kunde -right- ParkautomatEingabe
+Manager -right- ManagerZugang
+ParkautomatEingabe -right- TicketController
+ParkhausController -left- ManagerZugang
+ParkhausController -up- Preis
+ParkhausController -right- Oeffnungszeiten
+ParkhausController -down- Statistiken
+TicketController -up- BezahlungsController
+BezahlungsController -right- Bank
+BezahlungsController -right- Bezahlung
+@enduml

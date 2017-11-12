@@ -1,0 +1,31 @@
+@startuml
+class Parkhaus {
+  name : String
+  Preis : float
+  Oeffnungszeit : Time
+  Schliessungszeit : Time
+  istOffen : boolean
+}
+
+class Auto {
+  einfahrt : Time
+  ausfahrt : Time
+  Preis_fuer_Aufenthalt : float
+}
+
+class Adresse {
+   Strasse : String
+   Hausnummer : int 
+   Postleitzahl : String
+   Stadt : String
+}
+
+class Parkplatz{
+   Nummer : int
+   belegt : boolean
+}
+
+Parkhaus "1" --> "0..*" Parkplatz
+Parkplatz "1" --> "0..1" Auto
+Parkhaus "1" --> "1" Adresse
+@enduml
