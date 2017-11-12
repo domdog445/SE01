@@ -2,15 +2,15 @@
 class Parkhaus {
   name : String
   Preis : float
-  Oeffnungszeit : Time
-  Schliessungszeit : Time
-  istOffen : boolean
+}
+class Auto {
+   einfahrt : Time
+   ausfahrt : Time
 }
 
-class Auto {
-  einfahrt : Time
-  ausfahrt : Time
-  Preis_fuer_Aufenthalt : float
+class Verwaltung{
+   Benutzername: String
+   Passwort: String
 }
 
 class Adresse {
@@ -28,4 +28,5 @@ class Parkplatz{
 Parkhaus "1" --> "0..*" Parkplatz
 Parkplatz "1" --> "0..1" Auto
 Parkhaus "1" --> "1" Adresse
+Parkhaus "0..*" --> "1" Verwaltung
 @enduml
