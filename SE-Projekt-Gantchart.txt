@@ -1,0 +1,29 @@
+@startgantt
+Project starts the 23th of october 2017
+[Analyse] as [A] lasts 14 days
+[Aktivitaetsdiagramm] as [D1] lasts 14 days
+[Sequenzdiagramm] as [D2] lasts 14 days
+[Implementierung Parkhaus] as [I11] lasts 14 days
+[Implementierung Auto] as [I12] lasts 14 days
+[Implementierung Parkplatz] as [I13] lasts 14 days
+[Testphase 1] as [I2] lasts 14 days
+[Implementierung Verwaltung] as [I31] lasts 14 days
+[Testphase 2] as [I4] lasts 14 days
+[Finish] as [F] lasts 14 days
+[D1] starts at [A]’s end
+[D2] starts at [A]'s end
+[I11] starts at [D2]'s end
+[I12] starts at [D2]'s end
+[I13] starts at [D2]'s end
+[I2] starts at [I13]’s end
+[I31] starts at [I2]’s end
+[I4] starts at [I31]’s end
+[F] starts at [I4]’s end
+[A] is colored in Lavender/LightBlue
+[I11] is colored in Fuchsia/FireBrick
+[I12] is colored in Fuchsia/FireBrick
+[I13] is colored in Fuchsia/FireBrick
+[I2] is colored in Fuchsia/FireBrick
+[I31] is colored in Fuchsia/FireBrick
+[I4] is colored in Fuchsia/FireBrick
+@endgantt
